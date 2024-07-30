@@ -64,7 +64,7 @@ This command will generate the summary as output and store it into a specific fi
 
 - Run the cli application by passing **textual paragraphs**
 ```bash
-python cli.py -t "This is a book. Its a Physics Book. Its covers are red. Its written by Mr XYZ. I have read ths book in class 11. This book has 2 parts"
+python cli.py -t "The quick brown fox jumped over the lazy dog"
 ```
 
 This command will generate the summary as output and paste it on the shell
