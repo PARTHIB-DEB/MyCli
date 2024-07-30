@@ -39,7 +39,20 @@ git clone https://github.com/PARTHIB-DEB/Bayesian-Technologies.git
 pip install -r requirements.txt
 ```
 
-## Input-Output
+## Run and Input-Output
+
+### Ollama Server
+- Start the Ollama server
+```bash
+sudo systemctl start ollama
+```
+- Check whether you can run qwen2:0.5b model in shell
+```bash
+ollama run qwen2:0.5b
+```
+
+### Script (cli.py)
+
 The *cli.py* script has only one function - *commandline()* . This function takes parameter **-t** and an argument which is either a text file (e.g: **book.txt**) or any paragraphs. While giving a paragraph as an argument , either seperate each word with a specifier or enclose the whole string within single or double quotes or some brackets.
 
 - Run the cli application by passing **text file**
