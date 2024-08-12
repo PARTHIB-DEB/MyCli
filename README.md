@@ -1,5 +1,4 @@
-# MyCli (Bayesian Technologies Assignment)
-This is the repository of the assignment for **Software Developer Intern** position at Bayesian Technologies. The task is to *Create a cli using Python*
+# MyCli
 
 ## Installation
 
